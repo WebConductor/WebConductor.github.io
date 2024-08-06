@@ -5,9 +5,9 @@ name: build
 
 on:
   push:
-    branches: [ "SBR_Github_Action" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "SBR_Github_Action" ]
+    branches: [ "master" ]
 
 jobs:
   build:
