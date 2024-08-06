@@ -27,6 +27,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: List Artifacts
+        run: |
+          echo "Available artifacts:"
+          ls -R
       - name: Download build artifact
         uses: actions/download-artifact@v2
         with:
